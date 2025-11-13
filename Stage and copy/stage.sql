@@ -5,7 +5,7 @@ CREATE OR REPLACE SCHEMA external_stages;
 //Creating external stage:
 CREATE or replace stage aws_stage
     url = 's3://dwh-snowflake-course-bhargav'
-    credentials = (aws_key_id = 'AKIA2DWV7OIUIYTMBI4J', aws_secret_key = 'W+5vYSK7aJPmyIuBmVa/VC4CVwb+XLks/82JeMxy');
+    credentials = (aws_key_id ='', aws_secret_key = '');
 
 // Description of external stage:
 DESC STAGE aws_stage;
