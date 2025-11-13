@@ -1,3 +1,3 @@
 In this repository, I have shared my learning from Snowflake.
 
-- Data Sharing: From this module, you can find the code on how to create roles, users and grant them access to different warehouses and datamarts.
+- []Data Sharing: From this module, you can find the code on how to create roles, users and grant them access to different warehouses and datamarts.
