@@ -12,7 +12,7 @@ DESC STAGE aws_stage;
 
 // Alter external stage by modifying  the credentials:
 ALTER STAGE aws_stage
- set credentials = (aws_key_id = 'XYZ_DUMMY_ID', aws_secret_key = '987xyz');
+ set credentials = (aws_key_id = '', aws_secret_key = '');
 
  // Modifying existing stage with a new s3 bucket that is publicly available:
  CREATE or replace stage aws_stage
